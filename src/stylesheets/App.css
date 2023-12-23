@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,700&family=Roboto+Slab:wght@200;400&family=Roboto:ital,wght@0,400;0,500;0,900;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Open Sans , serif','Roboto Slab', serif;
+    scroll-behavior: smooth;
+}
+:root{
+    --color1:#fef2f2;
+    --color2:#286f6c;
+    --color2_1:#174340;
+    --color3:#f26440;
+    --color3_light:rgb(249,141,141);
+    --color3_1:#ad4126;
+    --color4:#fff;
+    --color5:#292b46;
+    --color6:#161616;
+    --color6_1:#16161698;
+    --color6_2:#16161622;
+
+    --p:13.33vmax;
+    --p_md:7vmax;
+    --p_base:5vmax;
+    --p_base_inverse:15vmax 10vmax;
+    --p_sm:2vmax;
+    --p_sm_inverse:13vmax 0;
+    --p_zero:0;
+
+    --font1: 'Roboto', sans-serif;
+    --font2:'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: var(--color1);
+    overflow-x: hidden;
+}
+.disableBtn{
+    color: var(--color6) !important;
+    background-color: rgb(237,237,237) !important;
+    cursor: not-allowed !important;
+}
+
+
+/* Animaion Section-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+@keyframes animationSvg {
+    to {
+        transform: translate(-50%, -10px);
+
+    }
+}
+
+@keyframes upupdowndown{
+    to{
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes  updown{
+    to{
+        transform: translateY(-5px);
+    }
+}

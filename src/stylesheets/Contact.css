@@ -1,0 +1,67 @@
+#contact{
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3rem;
+}
+#contact section {
+    background-color: var(--color1);
+    width: 100%;
+    height: 100%;
+}
+#contact form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+#contact h2{
+    text-align: center;
+    font: 100 2.7rem var(--font2);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 2rem;
+}
+#contact input , #contact button{
+    padding: 0.8rem;
+    width: 55%;
+    outline: none;
+    font: 400 0.9rem var(--font1);
+    margin: 1rem;
+    border: none;
+}
+#contact button{
+    cursor: pointer;
+    background-color: var(--color3);
+    color: var(--color4);
+    font: 600 1rem var(--font1);
+    text-transform: uppercase;
+    margin: 3rem;
+}
+#contact button:hover{
+    background-color: var(--color3_1);
+
+}
+#contact aside{
+    width: 100%;
+    height: 100%;
+    background-color: var(--color5);
+    display: grid;
+    place-items:center;
+}
+#contact aside img{
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.322))hue-rotate(150deg);
+    animation: upupdowndown 1s infinite linear alternate;
+}
+
+@media screen and (max-width:630px) {
+ #contact{
+    margin-top: -0.1rem;
+    display: flex;
+    flex-direction: column-reverse;
+ }   
+}

@@ -1,0 +1,205 @@
+#home {
+    display: flex;
+    width: 100%;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+#home section {
+    width: 100%;
+    
+}
+
+#home section:first-child {
+    padding-left: var(--p);
+
+}
+
+#home section:first-child > div > h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: var(--font1);
+}
+
+#home section:nth-child(2) {
+    border-top: 1px solid var(--color6_2);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    overflow-x: hidden;
+    padding-bottom: 4rem;
+}
+
+#home section:nth-child(2)::after {
+    content: "";
+    width: 23rem;
+    height:23rem;
+    background-color: var(--color3);
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+#home section:first-child>div {
+    border-top: 1px solid var(--color6_2);
+    height: 100%;
+    padding-top: 6rem;
+}
+
+#home section:first-child>div>div {
+    display: flex;
+    margin: 2rem 0;
+    width: 70%;
+    gap: 3rem;
+    align-items: center;
+}
+
+#home section:first-child>div>div a:first-child {
+    background-color: var(--color3);
+    color: var(--color1);
+    padding: 1rem 2.5rem;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+#home section:first-child>div>div a:first-child:hover {
+    background-color: var(--color3_1);
+}
+
+#home section:first-child>div>div a:last-child {
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: var(--font2);
+    color: var(--color5);
+    display: flex;
+    align-items: center;
+}
+
+
+#home section img {
+    object-fit: contain;
+    width: 33rem;
+    height:33rem;
+}
+
+#home svg:nth-child(3) {
+    position: absolute;
+    font-size: 4rem;
+    color: var(--color5);
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%);
+    animation: animationSvg .7s infinite linear alternate;
+}
+
+#home .typewriterpara {
+    margin: .2rem 0;
+    height: 1.1rem;
+    letter-spacing: 3px;
+}
+
+#home aside {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: -1rem;
+}
+
+ #home article {
+    margin: 2rem 0;
+    width: 10rem;
+    color: var(--color5);
+    position: relative;
+
+}
+
+#home article::after {
+    position: absolute;
+    content: "";
+    background-color: var(--color4);
+    width: 100%;
+    height: 5rem;
+    z-index: -1;
+    top: 20%;
+    border-radius: 50px;
+    left: 20%;
+}
+
+#home section p {
+    font-weight: 900;
+    font-size: 2rem;
+    font-family: var(--font1);
+}
+
+#home section p span {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: var(--font2);
+}
+
+@media screen and (max-width:875px){
+    #home aside{
+        flex-direction: column;
+    }
+    #home svg:nth-child(3){
+        bottom: 20%;
+    }
+   
+}
+
+@media screen and (max-width:768px){
+    #home{
+        margin-top: -4rem;
+        flex-direction:column-reverse;
+    }
+    #home section:first-child > div{
+        padding-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #home section:first-child > div:first-child{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #home section:first-child .typewriterpara{
+        font-size: 1.5rem;
+    }
+    #home section:first-child{
+        padding-left: 0;
+        text-align: center;
+    }
+    #home section:first-child article{
+        align-self: center;
+    }
+    #home section:first-child > div:first-child > div:nth-child(3),
+    #home section:first-child > div:first-child > div:nth-child(4){
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #home section:first-child > div>div{
+        display: block;
+    }
+    #home svg:nth-child(3){
+        bottom:35%;
+    }
+    #home article::after{
+        left: 0%;
+        top: 0%;
+    }
+}
+
+@media screen and (max-width:476px) {
+    #home section:first-child > div > h1 {
+        padding: 0 .5rem;
+    }
+    #home section:nth-child(2)::after{
+        height: 20rem;
+        width: 20rem;
+    }
+    
+}

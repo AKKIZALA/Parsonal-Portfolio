@@ -1,0 +1,27 @@
+{
+ "projects": [
+    {
+        "date":"09/07/2023",
+        "title":"Z - Movice",
+        "description":"Thise is the sample description about the project details. thise site about get all new movice with search feature.And thise website create with react app",
+        "url":"https://z-movice.vercel.app/",
+        "imageSrc":"https://images.pexels.com/photos/2007647/pexels-photo-2007647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+
+    {
+        "date":"18/09/2023",
+        "title":"Amazon-Clone E-Commerce",
+        "description":"thise is the sample description about thise project details.thise project about react-redux and react-redux toolkite.in this project i have show you how to react cart section when we are buying some items.",
+        "url":"https://calefacient-reveill.000webhostapp.com/",
+        "imageSrc":"https://images.pexels.com/photos/1860160/pexels-photo-1860160.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+
+    {
+        "date":"23/11/2023",
+        "title":"Book Hotel's",
+        "description":"This site about booking hotel , this site it contains gallery for different-different rooms,resort,services about hotel news and one more feature is newslatter so pleace visit the site",
+        "url":"https://hotel-dream.vercel.app/",
+        "imageSrc":"https://images.pexels.com/photos/2096983/pexels-photo-2096983.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+ ]
+}
