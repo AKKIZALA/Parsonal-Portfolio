@@ -11,7 +11,7 @@
     {
         "date":"18/09/2023",
         "title":"Amazon-Clone E-Commerce",
-        "description":"thise is the sample description about thise project details.thise project about react-redux and react-redux toolkite.in this project i have show you how to react cart section when we are buying some items.",
+        "description":"simple project. in thise project i create basic ui of amazon website",
         "url":"https://calefacient-reveill.000webhostapp.com/",
         "imageSrc":"https://images.pexels.com/photos/1860160/pexels-photo-1860160.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
@@ -22,6 +22,13 @@
         "description":"This site about booking hotel , this site it contains gallery for different-different rooms,resort,services about hotel news and one more feature is newslatter so pleace visit the site",
         "url":"https://hotel-dream.vercel.app/",
         "imageSrc":"https://images.pexels.com/photos/2096983/pexels-photo-2096983.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+    {
+        "date":"20/12/2023",
+        "title":"Flipcart Clone",
+        "description":"the project about e-commerce websit.using react, react-toolkite, react-router-dom, and many pakeges."
+        "url":"https://flipclone-two.vercel.app/",
+        "imageSrc":"https://beebom.com/wp-content/uploads/2020/07/fake-flipkart-clones.jpg?w=750&quality=75"
     }
  ]
 }
