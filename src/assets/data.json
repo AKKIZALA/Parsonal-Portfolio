@@ -21,14 +21,14 @@
         "title":"Book Hotel's",
         "description":"This site about booking hotel , this site it contains gallery for different-different rooms,resort,services about hotel news and one more feature is newslatter so pleace visit the site",
         "url":"https://hotel-dream.vercel.app/",
-        "imageSrc":"https://images.pexels.com/photos/2096983/pexels-photo-2096983.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "imageSrc":"https://images.pexels.com/photos/2096983/pexels-photo-2096983.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
         "date":"20/12/2023",
         "title":"Flipcart Clone",
         "description":"the project about e-commerce websit.using react, react-toolkite, react-router-dom, and many pakeges.",
         "url":"https://flipclone-two.vercel.app/",
-        "imageSrc":"https://beebom.com/wp-content/uploads/2020/07/fake-flipkart-clones.jpg?w=750&quality=75",
-    },
+        "imageSrc":"https://beebom.com/wp-content/uploads/2020/07/fake-flipkart-clones.jpg?w=750&quality=75"
+    }
  ]
 }
